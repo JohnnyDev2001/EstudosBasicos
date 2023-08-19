@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Extensão Marota",
+    "description": "Minha Primeira extensão",
+    "version": "1.0",
+    "permissions": ["activeTab", "scripting"],
+    "action":
+    {
+        "default_icon": {
+            "16": "loop.png",
+            "32": "loop.png"
+        },
+        "default_popup": "index.html"
+    }
+}

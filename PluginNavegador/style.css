@@ -1,0 +1,33 @@
+form{
+    background-color: rgb(226, 226, 226);
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #afafaf;
+}
+
+.button{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: rgb(5, 153, 84);
+    color: #fff;
+    font-weight: 706;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: transparent;
+    border: 2px solid rgb(5, 153, 84);
+    color: rgb(5, 153, 84);
+}
